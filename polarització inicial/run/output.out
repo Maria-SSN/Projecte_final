@@ -1,0 +1,96 @@
+Executable      : siesta
+Version         : 5.4.2
+Architecture    : x86_64
+Compiler version: GNU-14.3.0
+Compiler flags  : -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem <prefix>/include -I<prefix>/_build_env/include -fdebug-prefix-map=<prefix>/work=/usr/local/src/conda/siesta-5.4.2 -fdebug-prefix-map=<prefix>=/usr/local/src/conda-prefix -I<prefix>/lib -fallow-argument-mismatch -O3
+Parallelisations: none
+NetCDF support
+NetCDF-4 support
+Lua support
+DFT-D3 support
+
+Runtime information:
+* Directory : /home/UAB/1673794/Trevall final/polarització inicial/run
+* Running in serial mode.
+>> Start of run:  29-MAY-2026  11:49:52
+
+                           *********************** 
+                           *  WELCOME TO SIESTA  * 
+                           *********************** 
+
+ NOTE: Siesta V5 introduces some new defaults for basis-set generation
+ NOTE: which might lead to slightly different numerical results.
+ NOTE: Please see the manual for full details and compatibility measures.
+
+
+reinit: Reading from standard input
+reinit: Dumping input in INPUT_TMP.73290
+************************** Dump of input data file ****************************
+SystemName       c-BN exp. latt.   # Descriptive name of the system
+SystemLabel            c-BN           # Short name for naming files
+# Output options
+WriteCoorStep  .true.
+WriteMullikenPop       1
+# Species and atoms
+NumberOfSpecies        3
+NumberOfAtoms          3
+%block ChemicalSpeciesLabel
+  1  22  T
+  2  40  Z
+  3  82  P
+%endblock ChemicalSpeciesLabel
+# Basis
+PAO.EnergyShift       200 meV
+PAO.BasisSize         DZP
+LatticeConstant       3.615 Ang
+%block LatticeVectors
+ 0.00000   0.500000  0.500000
+ 0.50000   0.000000  0.500000
+ 0.50000   0.500000  0.000000
+%endblock LatticeVectors
+KgridCutoff          10. Ang
+xc.functional         GGA           # Exchange-correlation functional
+xc.authors            PBE           # Exchange-correlation version
+MeshCutoff           140. Ry        # Mesh cutoff. real space mesh
+# SCF options
+MaxSCFIterations       40           # Maximum number of SCF iter
+DM.MixingWeight       0.1           # New DM amount for next SCF cycle
+DM.Tolerance          1.d-4         # Tolerance in maximum difference
+                                    # between input and output DM
+DM.UseSaveDM          true          # to use continuation files
+DM.NumberPulay         5
+SolutionMethod        diagon        # OrderN or Diagon
+ElectronicTemperature  25 meV       # Temp. for Fermi smearing
+# Atomic coordinates
+AtomicCoordinatesFormat     ScaledCartesian
+%block AtomicCoordinatesAndAtomicSpecies
+  0.000000000000    0.000000000000    0.000000000000  1
+  0.250000000000    0.250000000000    0.250000000000  2
+%endblock AtomicCoordinatesAndAtomicSpecies
+# Calculation of the macroscopic polarization
+%block PolarizationGrids
+10  4   4
+4   10  4
+4   4   10
+%endblock PolarizationGrids
+************************** End of input data file *****************************
+
+reinit: -----------------------------------------------------------------------
+reinit: System Name: c-BN exp. latt.
+reinit: -----------------------------------------------------------------------
+reinit: System Label: c-BN
+reinit: -----------------------------------------------------------------------
+
+initatom: Reading input for the pseudopotentials and atomic orbitals ----------
+Species number:   1 Atomic number:   22 Label: T
+Species number:   2 Atomic number:   40 Label: Z
+Species number:   3 Atomic number:   82 Label: P
+
+Ground state valence configuration (from tables):   4s02  4p00  3d02  4f00
+Ground state valence configuration (from tables):   5s02  5p00  4d02  4f00
+Ground state valence configuration (from tables):   6s02  6p02  6d00  5f00
+
+---- Processing specs for species: T
+pseudo_read: ERROR: Pseudopotential file not found: T.{vps,psf,psml}
+
+Stopping Program from Node:    0
