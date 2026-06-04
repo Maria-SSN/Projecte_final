@@ -1,0 +1,29 @@
+LatticeConstant 1.0 Ang
+%block LatticeVectors
+ 0.000140    2.097220    2.097224
+ 2.097217    0.000140    2.097225
+ 2.097227    2.097230    0.000130
+
+%endblock LatticeVectors
+
+NumberOfAtoms 3
+AtomicCoordinatesFormat Ang
+%block AtomicCoordinatesAndAtomicSpecies
+ -0.75727800 -0.75728300 -0.75724900 1 # 1: Ti
+  1.34020400  1.34020200  1.34025500 2 # 2: Zr
+  2.38873600  2.38873800  2.38875200 3 # 3: Pb
+%endblock AtomicCoordinatesAndAtomicSpecies
+
+NumberOfSpecies 3
+%block ChemicalSpeciesLabel
+ 1 22 Ti
+ 2 40 Zr
+ 3 82 Pb
+%endblock ChemicalSpeciesLabel
+
+# Calculation of the macroscopic polarization
+%block PolarizationGrids
+40   16  16
+16   40  16
+16   16  40
+%endblock PolarizationGrids
