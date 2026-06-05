@@ -1,0 +1,35 @@
+LatticeConstant 1.0 Ang
+%block LatticeVectors
+ 3.98333387 0.00000000 0.00000000
+ 0.00000000 5.72519022 0.00000000
+ 0.00000000 0.00000000 5.75067906
+%endblock LatticeVectors
+
+NumberOfAtoms 10
+AtomicCoordinatesFormat Ang
+%block AtomicCoordinatesAndAtomicSpecies
+ 0.00000000 0.00000000 5.73104710 1 #  1: Ba
+ 0.00000000 2.86259511 2.85570757 1 #  2: Ba
+ 1.99166693 0.00000000 2.76893000 2 #  3: Ti
+ 1.99166693 2.86259511 5.64426953 2 #  4: Ti
+ 1.99166693 1.39429502 1.52456954 3 #  5: O
+ 1.99166694 4.33089520 1.52456954 3 #  6: O
+ 1.99166693 4.25689013 4.39990907 3 #  7: O
+ 1.99166694 1.46830009 4.39990907 3 #  8: O
+ 0.00000000 0.00000000 2.94317017 3 #  9: O
+ 0.00000000 2.86259511 0.06783064 3 # 10: O
+%endblock AtomicCoordinatesAndAtomicSpecies
+
+NumberOfSpecies 3
+%block ChemicalSpeciesLabel
+ 1 56 Ba
+ 2 22 Ti
+ 3 8 O
+%endblock ChemicalSpeciesLabel
+
+# Calculation of the macroscopic polarization
+%block PolarizationGrids
+20  8   20
+8   20  8
+8   8   20
+%endblock PolarizationGrids
