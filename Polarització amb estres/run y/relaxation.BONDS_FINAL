@@ -1,0 +1,58 @@
+Neighbors of:     1 Ba at:  -0.0392 -0.3190  9.7337
+    9 O                     2.1548  Ang. Really at:  -0.0588 -0.1318  5.6660
+    8 O                     2.2399  Ang. Really at:   3.3786  1.5393  8.0656
+    4 Ti                    3.0842  Ang. Really at:   3.6876  4.1508 10.0523
+    3 Ti                    3.1336  Ang. Really at:   3.4206 -0.2296  4.9287
+Neighbors of:     2 Ba at:   0.1822  4.2149  4.5299
+    6 O                     2.0913  Ang. Really at:   2.8651  6.0299  2.2660
+   10 O                     2.2105  Ang. Really at:   0.2726  4.5479  0.3670
+    5 O                     2.3444  Ang. Really at:   3.5094  2.1981  2.4111
+    9 O                     2.3809  Ang. Really at:  -0.0588 -0.1318  5.6660
+    7 O                     2.5431  Ang. Really at:   3.2454  6.4496  7.4827
+    8 O                     2.8924  Ang. Really at:   3.3786  1.5393  8.0656
+    3 Ti                    2.9177  Ang. Really at:   3.4206 -0.2296  4.9287
+Neighbors of:     3 Ti at:   3.4206 -0.2296  4.9287
+    5 O                     1.8513  Ang. Really at:   3.5094  2.1981  2.4111
+    9 O                     1.8829  Ang. Really at:  -0.0588 -0.1318  5.6660
+    8 O                     1.9058  Ang. Really at:   3.3786  1.5393  8.0656
+    2 Ba                    2.9177  Ang. Really at:   0.1822  4.2149  4.5299
+    1 Ba                    3.1336  Ang. Really at:  -0.0392 -0.3190  9.7337
+Neighbors of:     4 Ti at:   3.6876  4.1508 10.0523
+    8 O                     1.7440  Ang. Really at:   3.3786  1.5393  8.0656
+    7 O                     1.8394  Ang. Really at:   3.2454  6.4496  7.4827
+    1 Ba                    3.0842  Ang. Really at:  -0.0392 -0.3190  9.7337
+Neighbors of:     5 O at:   3.5094  2.1981  2.4111
+    3 Ti                    1.8513  Ang. Really at:   3.4206 -0.2296  4.9287
+    6 O                     2.0576  Ang. Really at:   2.8651  6.0299  2.2660
+    2 Ba                    2.3444  Ang. Really at:   0.1822  4.2149  4.5299
+   10 O                     2.3770  Ang. Really at:   0.2726  4.5479  0.3670
+    9 O                     2.8377  Ang. Really at:  -0.0588 -0.1318  5.6660
+    8 O                     3.0132  Ang. Really at:   3.3786  1.5393  8.0656
+Neighbors of:     6 O at:   2.8651  6.0299  2.2660
+   10 O                     1.8727  Ang. Really at:   0.2726  4.5479  0.3670
+    5 O                     2.0576  Ang. Really at:   3.5094  2.1981  2.4111
+    2 Ba                    2.0913  Ang. Really at:   0.1822  4.2149  4.5299
+    7 O                     2.7768  Ang. Really at:   3.2454  6.4496  7.4827
+Neighbors of:     7 O at:   3.2454  6.4496  7.4827
+    4 Ti                    1.8394  Ang. Really at:   3.6876  4.1508 10.0523
+    2 Ba                    2.5431  Ang. Really at:   0.1822  4.2149  4.5299
+    8 O                     2.6176  Ang. Really at:   3.3786  1.5393  8.0656
+    6 O                     2.7768  Ang. Really at:   2.8651  6.0299  2.2660
+Neighbors of:     8 O at:   3.3786  1.5393  8.0656
+    4 Ti                    1.7440  Ang. Really at:   3.6876  4.1508 10.0523
+    3 Ti                    1.9058  Ang. Really at:   3.4206 -0.2296  4.9287
+    1 Ba                    2.2399  Ang. Really at:  -0.0392 -0.3190  9.7337
+    9 O                     2.3881  Ang. Really at:  -0.0588 -0.1318  5.6660
+    7 O                     2.6176  Ang. Really at:   3.2454  6.4496  7.4827
+    2 Ba                    2.8924  Ang. Really at:   0.1822  4.2149  4.5299
+    5 O                     3.0132  Ang. Really at:   3.5094  2.1981  2.4111
+Neighbors of:     9 O at:  -0.0588 -0.1318  5.6660
+    3 Ti                    1.8829  Ang. Really at:   3.4206 -0.2296  4.9287
+    1 Ba                    2.1548  Ang. Really at:  -0.0392 -0.3190  9.7337
+    2 Ba                    2.3809  Ang. Really at:   0.1822  4.2149  4.5299
+    8 O                     2.3881  Ang. Really at:   3.3786  1.5393  8.0656
+    5 O                     2.8377  Ang. Really at:   3.5094  2.1981  2.4111
+Neighbors of:    10 O at:   0.2726  4.5479  0.3670
+    6 O                     1.8727  Ang. Really at:   2.8651  6.0299  2.2660
+    2 Ba                    2.2105  Ang. Really at:   0.1822  4.2149  4.5299
+    5 O                     2.3770  Ang. Really at:   3.5094  2.1981  2.4111
